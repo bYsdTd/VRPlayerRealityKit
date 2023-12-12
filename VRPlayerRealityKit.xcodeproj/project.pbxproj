@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0AC0F92B1C22B900DC090E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2B0AC0F82B1C22B900DC090E /* RealityKitContent */; };
+		2B0AC0FB2B1C22B900DC090E /* VRPlayerRealityKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AC0FA2B1C22B900DC090E /* VRPlayerRealityKitApp.swift */; };
+		2B0AC0FD2B1C22B900DC090E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AC0FC2B1C22B900DC090E /* ContentView.swift */; };
+		2B0AC0FF2B1C22B900DC090E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AC0FE2B1C22B900DC090E /* ImmersiveView.swift */; };
+		2B0AC1012B1C22BB00DC090E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0AC1002B1C22BB00DC090E /* Assets.xcassets */; };
+		2B0AC1042B1C22BB00DC090E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0AC1032B1C22BB00DC090E /* Preview Assets.xcassets */; };
+		2B0AC10C2B1C886100DC090E /* DrawableTextureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AC10B2B1C886100DC090E /* DrawableTextureManager.swift */; };
+		2BEDF49A2B242773006F96B5 /* VRVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDF4992B242773006F96B5 /* VRVideoPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0AC0F32B1C22B900DC090E /* VRPlayerRealityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPlayerRealityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0AC0F72B1C22B900DC090E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		2B0AC0FA2B1C22B900DC090E /* VRPlayerRealityKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPlayerRealityKitApp.swift; sourceTree = "<group>"; };
+		2B0AC0FC2B1C22B900DC090E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B0AC0FE2B1C22B900DC090E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		2B0AC1002B1C22BB00DC090E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B0AC1032B1C22BB00DC090E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B0AC1052B1C22BB00DC090E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0AC10B2B1C886100DC090E /* DrawableTextureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawableTextureManager.swift; sourceTree = "<group>"; };
+		2BEDF4992B242773006F96B5 /* VRVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRVideoPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0AC0F02B1C22B900DC090E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0AC0F92B1C22B900DC090E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0AC0EA2B1C22B900DC090E = {
+			isa = PBXGroup;
+			children = (
+				2B0AC0F52B1C22B900DC090E /* VRPlayerRealityKit */,
+				2B0AC0F62B1C22B900DC090E /* Packages */,
+				2B0AC0F42B1C22B900DC090E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0AC0F42B1C22B900DC090E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AC0F32B1C22B900DC090E /* VRPlayerRealityKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0AC0F52B1C22B900DC090E /* VRPlayerRealityKit */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AC0FA2B1C22B900DC090E /* VRPlayerRealityKitApp.swift */,
+				2B0AC0FC2B1C22B900DC090E /* ContentView.swift */,
+				2B0AC0FE2B1C22B900DC090E /* ImmersiveView.swift */,
+				2BEDF4992B242773006F96B5 /* VRVideoPlayer.swift */,
+				2B0AC10B2B1C886100DC090E /* DrawableTextureManager.swift */,
+				2B0AC1002B1C22BB00DC090E /* Assets.xcassets */,
+				2B0AC1052B1C22BB00DC090E /* Info.plist */,
+				2B0AC1022B1C22BB00DC090E /* Preview Content */,
+			);
+			path = VRPlayerRealityKit;
+			sourceTree = "<group>";
+		};
+		2B0AC0F62B1C22B900DC090E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AC0F72B1C22B900DC090E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2B0AC1022B1C22BB00DC090E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AC1032B1C22BB00DC090E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0AC0F22B1C22B900DC090E /* VRPlayerRealityKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0AC1082B1C22BB00DC090E /* Build configuration list for PBXNativeTarget "VRPlayerRealityKit" */;
+			buildPhases = (
+				2B0AC0EF2B1C22B900DC090E /* Sources */,
+				2B0AC0F02B1C22B900DC090E /* Frameworks */,
+				2B0AC0F12B1C22B900DC090E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPlayerRealityKit;
+			packageProductDependencies = (
+				2B0AC0F82B1C22B900DC090E /* RealityKitContent */,
+			);
+			productName = VRPlayerRealityKit;
+			productReference = 2B0AC0F32B1C22B900DC090E /* VRPlayerRealityKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0AC0EB2B1C22B900DC090E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2B0AC0F22B1C22B900DC090E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B0AC0EE2B1C22B900DC090E /* Build configuration list for PBXProject "VRPlayerRealityKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0AC0EA2B1C22B900DC090E;
+			productRefGroup = 2B0AC0F42B1C22B900DC090E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0AC0F22B1C22B900DC090E /* VRPlayerRealityKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0AC0F12B1C22B900DC090E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0AC1042B1C22BB00DC090E /* Preview Assets.xcassets in Resources */,
+				2B0AC1012B1C22BB00DC090E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0AC0EF2B1C22B900DC090E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0AC0FD2B1C22B900DC090E /* ContentView.swift in Sources */,
+				2B0AC10C2B1C886100DC090E /* DrawableTextureManager.swift in Sources */,
+				2B0AC0FB2B1C22B900DC090E /* VRPlayerRealityKitApp.swift in Sources */,
+				2BEDF49A2B242773006F96B5 /* VRVideoPlayer.swift in Sources */,
+				2B0AC0FF2B1C22B900DC090E /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B0AC1062B1C22BB00DC090E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		2B0AC1072B1C22BB00DC090E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		2B0AC1092B1C22BB00DC090E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VRPlayerRealityKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.VRPlayerRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		2B0AC10A2B1C22BB00DC090E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VRPlayerRealityKit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.VRPlayerRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0AC0EE2B1C22B900DC090E /* Build configuration list for PBXProject "VRPlayerRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0AC1062B1C22BB00DC090E /* Debug */,
+				2B0AC1072B1C22BB00DC090E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0AC1082B1C22BB00DC090E /* Build configuration list for PBXNativeTarget "VRPlayerRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0AC1092B1C22BB00DC090E /* Debug */,
+				2B0AC10A2B1C22BB00DC090E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B0AC0F82B1C22B900DC090E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B0AC0EB2B1C22B900DC090E /* Project object */;
+}
